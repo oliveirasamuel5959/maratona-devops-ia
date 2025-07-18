@@ -16,7 +16,7 @@ jobs:
   CD:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Obter código"
+      - run: ech "Obter código"
       - run: echo "Configurar o Kubeconfig"
       - run: echo "Executar o apply"
   
